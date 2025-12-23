@@ -21,6 +21,8 @@ import Layout from "./TodoList/Components/Layout/Layout";
 import Index from "./TodoList/Pages/Index";
 import Router01 from "./RouterStudy/Router01/Router01";
 import Router02 from "./RouterStudy/Router02/Router02";
+import Router03 from "./RouterStudy/Router03/Router03";
+import Router04 from "./RouterStudy/Router04/Router04";
 
 function App() {
     const name = "박윤호";
@@ -49,7 +51,9 @@ function App() {
                 {/* <ReackHook09 /> */}
                 {/* <Index /> */}
                 {/* <Router01 /> */}
-                <Router02 />
+                {/* <Router02 /> */}
+                {/* <Router03 /> */}
+                <Router04 />
             </BrowserRouter>
             {/* BrowserRouter로 감싸진 내부에 있는 컴포넌트들만 Routes, Route, Link, useNavigation같은
                 라우터 기능을 쓸 수 있다. */}
