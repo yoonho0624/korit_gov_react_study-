@@ -30,6 +30,7 @@ function Component2() {
             </div>
         </>
     );
+    
 }
 
 function Router04() {
